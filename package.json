@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "build": "parcel build --no-cache",
-    "start": "parcel serve"
+    "start": "parcel serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/christopher-aube/iron-legends/issues"
   },
-  "homepage": "https://christopher-aube.github.io/iron-legends",
+  "homepage": "https://christopher-aube.github.io/iron-legends/",
   "devDependencies": {
     "@parcel/packager-ts": "^2.4.1",
     "@parcel/transformer-sass": "^2.4.1",
