@@ -8,7 +8,7 @@ The Kathians aimed to deliver a quick decisive blow by securing their northern b
 
 When the recruiters from the Kathian army came to your home, your master complied with their request and sold you into their service. On the long road to Kathis, you were measured and tested. Showing some fighting promise, you were chosen to serve as a vanguard in the 8th Legion.
 
-<img style="float:left; object-fit:cover; width:50px;" src="../assets/symbols/red-dragon-cohort.png"> While encamped outside the capitol, you were assigned to the Red Dragons cohort. After four weeks of training day and night, the drums of war sounded and the 8th Legion marched north.
+<img style="float:left; object-fit:cover; width:50px;" src="../assets/symbols/battle-standard-red-dragon-cohort.png"> While encamped outside the capitol, you were assigned to the Red Dragons cohort. After four weeks of training day and night, the drums of war sounded and the 8th Legion marched north.
 
 ## Strange Beginnings
 
