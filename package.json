@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "rimraf dist && parcel build --no-cache --public-url ../iron-legends",
-    "start": "parcel serve",
+    "start": "parcel serve --open",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
@@ -26,6 +26,7 @@
     "@parcel/transformer-typescript-types": "^2.4.1",
     "@types/react": "^17.0.43",
     "@types/react-dom": "^17.0.14",
+    "@types/react-router-dom": "^5.3.3",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-react": "^7.29.4",
