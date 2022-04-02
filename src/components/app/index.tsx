@@ -4,7 +4,7 @@ import pageHome from '../../pages/home/index'
 
 export const App = () => {
   return (
-    <Router basename="/">
+    <Router basename="/iron-legends">
       <main>
         <Routes>
           <Route path={`${pageHome.Route}`} element={<pageHome.Page />}/>

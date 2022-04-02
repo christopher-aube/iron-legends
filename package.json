@@ -5,7 +5,7 @@
   "source": "src/index.html",
   "type": "module",
   "scripts": {
-    "build": "parcel build --no-cache",
+    "build": "rimraf dist && parcel build --no-cache --public-url ../iron-legends",
     "start": "parcel serve",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
@@ -35,6 +35,7 @@
     "postcss-import": "^14.1.0",
     "postcss-modules": "^4.3.1",
     "prettier": "^2.6.1",
+    "rimraf": "^3.0.2",
     "typescript": "^4.6.3"
   },
   "dependencies": {
