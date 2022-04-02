@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "target": "ESNEXT",
+    "jsx": "react",
+    "module": "CommonJS",
+    "allowJs": false,
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "preserveConstEnums": true,
+    "stripInternal": true
+  },
+  "exclude": ["node_modules"]
+}
