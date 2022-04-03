@@ -5,7 +5,10 @@
   "source": "src/index.html",
   "type": "module",
   "scripts": {
-    "build": "rimraf dist && parcel build --no-cache --public-url ../iron-legends",
+    "clean": "rimraf dist && rimraf .parcel-cache",
+    "prebuild": "npm run clean",
+    "build": "parcel build --no-cache --public-url ../iron-legends",
+    "prestart": "npm run clean",
     "start": "parcel serve --open",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"

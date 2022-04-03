@@ -1,10 +1,10 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import pageHome from '../../pages/home/index'
 
 const basename = '/iron-legends'
 
-const NoRoutes = () => {
+const ReRoute = () => {
   return (
     <Router>
       <Routes>
@@ -27,12 +27,18 @@ const AppRoutes = () => {
   )
 }
 
-export const App = () => {
+export const getApp = () => {
   const pathname = window.location.pathname
+  const isReRouted = pathname === '/'
   
-  return (pathname === '/') ? <NoRoutes /> : <AppRoutes />
+  return {
+    Routes: () => {
+      return isReRouted ? <ReRoute /> : <AppRoutes />
+    },
+    isReRouted,
+  }
 };
 
 export default {
-  App,
+  getApp,
 }
