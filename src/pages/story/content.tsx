@@ -3,7 +3,8 @@ import React from 'react'
 export const Content = () => {
   const style1018 = {
   "object-fit": "cover",
-  "width": "50px"
+  "width": "50px",
+  "float": "left"
 } as React.CSSProperties
 
   return (

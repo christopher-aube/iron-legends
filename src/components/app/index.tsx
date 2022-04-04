@@ -21,16 +21,27 @@ const AppRoutes = () => {
   console.log('styles', styles)
   return (
     <Router basename={basename}>
-      <aside className={styles.pane}>
-        <Nav />
-      </aside>
-      <main className={styles.main}>
-        <Routes>
-          <Route path={`${pageStory.Route}`} element={<pageStory.Page />}/>
-          <Route path={`${pageHome.Route}`} element={<pageHome.Page />}/>
-          <Route path="*" element={<Navigate to={basename} />}/>
-        </Routes>
-      </main>
+      <div className={styles.gridContainer}>
+        <div className={styles.gridRow}>
+          <div className={[
+              styles.gridColXs2,
+              styles.gridColXsOffset1
+            ].join(' ')}>
+            <aside className={styles.pane}>
+              <Nav />
+            </aside>
+          </div>
+          <div className={styles.gridColXs6}>
+            <main className={styles.main}>
+              <Routes>
+                <Route path={`${pageStory.Route}`} element={<pageStory.Page />}/>
+                <Route path={`${pageHome.Route}`} element={<pageHome.Page />}/>
+                <Route path="*" element={<Navigate to={basename} />}/>
+              </Routes>
+            </main>
+          </div>
+        </div>
+      </div>
     </Router>
   )
 }

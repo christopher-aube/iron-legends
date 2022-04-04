@@ -1,8 +1,8 @@
 @use 'sass:math';
 @use 'sass:meta';
-@use './variables.scss' as *;
+@use './vars' as *;
 
-$gutter: $owl-sys-layout-spacer;
+$gutter: $sys-layout-spacer;
 $gutter-half: ($gutter * 0.5);
 $gutter-comp: ($gutter-half * -1);
 $margin-outer: ($gutter * 2);
@@ -72,6 +72,71 @@ $column-size-12: math.percentage(math.div(1, math.div(12, 12)));
             flex-grow: 1;
             flex-basis: 0;
             max-width: 100%;
+
+            &-offset {
+              &-1,
+              &-2,
+              &-3,
+              &-4,
+              &-5,
+              &-6,
+              &-7,
+              &-8,
+              &-9,
+              &-10,
+              &-11,
+              &-12 {
+                @include column-def;
+              }
+
+              &-1 {
+                margin-left: $column-size-1;
+              }
+
+              &-2 {
+                margin-left: $column-size-2;
+              }
+
+              &-3 {
+                margin-left: $column-size-3;
+              }
+
+              &-4 {
+                margin-left: $column-size-4;
+              }
+
+              &-5 {
+                margin-left: $column-size-5;
+              }
+
+              &-6 {
+                margin-left: $column-size-6;
+              }
+
+              &-7 {
+                margin-left: $column-size-7;
+              }
+
+              &-8 {
+                margin-left: $column-size-8;
+              }
+
+              &-9 {
+                margin-left: $column-size-9;
+              }
+
+              &-10 {
+                margin-left: $column-size-10;
+              }
+
+              &-11 {
+                margin-left: $column-size-11;
+              }
+
+              &-12 {
+                margin-left: $column-size-12;
+              }
+            }
 
             &-1,
             &-2,
@@ -146,71 +211,6 @@ $column-size-12: math.percentage(math.div(1, math.div(12, 12)));
             &-12 {
               flex-basis: $column-size-12;
               max-width: $column-size-12;
-            }
-
-            &-offset {
-              &-1,
-              &-2,
-              &-3,
-              &-4,
-              &-5,
-              &-6,
-              &-7,
-              &-8,
-              &-9,
-              &-10,
-              &-11,
-              &-12 {
-                @include column-def;
-              }
-
-              &-1 {
-                margin-left: $column-size-1;
-              }
-
-              &-2 {
-                margin-left: $column-size-2;
-              }
-
-              &-3 {
-                margin-left: $column-size-3;
-              }
-
-              &-4 {
-                margin-left: $column-size-4;
-              }
-
-              &-5 {
-                margin-left: $column-size-5;
-              }
-
-              &-6 {
-                margin-left: $column-size-6;
-              }
-
-              &-7 {
-                margin-left: $column-size-7;
-              }
-
-              &-8 {
-                margin-left: $column-size-8;
-              }
-
-              &-9 {
-                margin-left: $column-size-9;
-              }
-
-              &-10 {
-                margin-left: $column-size-10;
-              }
-
-              &-11 {
-                margin-left: $column-size-11;
-              }
-
-              &-12 {
-                margin-left: $column-size-12;
-              }
             }
           }
         }

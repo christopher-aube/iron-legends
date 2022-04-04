@@ -9,8 +9,8 @@ const createLinks = () => {
 
   return pages.map((page, index) => {
     return (
-      <li>
-        <Link key={index} to={`${page.Route}`} className={styles.navItem}>{page.Name}</Link>
+      <li key={index}>
+        <Link to={`${page.Route}`} className={styles.navItem}>{page.Name}</Link>
       </li>
     )
   })

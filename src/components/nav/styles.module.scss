@@ -3,6 +3,7 @@
 .nav {
   display: flex;
   flex-direction: column;
+  text-align: right;
 
   &__item {
     cursor: pointer;
