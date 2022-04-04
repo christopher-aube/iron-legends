@@ -9,7 +9,7 @@ const basename = '/iron-legends'
 
 export const App = () => {
   return (
-    <Router basename={basename}>
+    <Router>
       <div className={styles.gridContainer}>
         <div className={styles.gridRow}>
           <div className={[
