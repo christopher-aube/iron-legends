@@ -9,6 +9,7 @@ const config = {
   breaks: true
 }
 const engine = new Remarkable(config)
+const env = process.env.NODE_ENV || 'dev'
 
 export const compile = (contents) => {
   
@@ -16,7 +17,7 @@ export const compile = (contents) => {
     return engine
       .render(contents)
       .replace(/(src="\.\.\/)(assets)/g, (match, attr, loc) => {
-        return `${attr}./${loc}`;
+        return (env === 'prod') ? `src="./${loc}` : `${attr}./${loc}`;
       })
   } catch (err) {
     log(err)

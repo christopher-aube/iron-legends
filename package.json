@@ -12,7 +12,7 @@
     "build": "parcel build --no-cache --public-url ../iron-legends",
     "prestart": "npm run setup",
     "start": "parcel serve --open",
-    "predeploy": "npm run build",
+    "predeploy": "cross-env NODE_ENV=prod npm run build",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
@@ -33,6 +33,7 @@
     "@types/react-dom": "^17.0.14",
     "@types/react-router-dom": "^5.3.3",
     "chalk": "^5.0.1",
+    "cross-env": "^7.0.3",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-react": "^7.29.4",
