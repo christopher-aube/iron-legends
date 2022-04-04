@@ -1,8 +1,9 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
+import styles from './styles.module.scss'
+import { Nav } from '../nav'
 import pageHome from '../../pages/home'
 import pageStory from '../../pages/story'
-import { Nav } from '../nav'
 
 const basename = '/iron-legends'
 
@@ -17,12 +18,13 @@ const ReRoute = () => {
 }
 
 const AppRoutes = () => {
+  console.log('styles', styles)
   return (
     <Router basename={basename}>
-      <aside>
+      <aside className={styles.pane}>
         <Nav />
       </aside>
-      <main>
+      <main className={styles.main}>
         <Routes>
           <Route path={`${pageStory.Route}`} element={<pageStory.Page />}/>
           <Route path={`${pageHome.Route}`} element={<pageHome.Page />}/>

@@ -1,0 +1,29 @@
+@use '../../styles' as *;
+
+html,
+body {
+  background-color: $sys-bg-default;
+  color: $sys-color-default;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.25rem;
+  font-family: 'Lato', sans-serif;
+}
+
+#app {
+  display: flex;
+  height: 100vh;
+}
+
+.pane {
+  min-width: 300px;
+  padding: 2rem;
+}
+
+.main {
+  max-height: 100%;
+  overflow-y: auto;
+}

@@ -8,7 +8,11 @@ const createLinks = () => {
   const pages = [pageHome, pageStory]
 
   return pages.map((page, index) => {
-    return <Link key={index} to={`${page.Route}`} className={styles.navItem}>{page.Name}</Link>
+    return (
+      <li>
+        <Link key={index} to={`${page.Route}`} className={styles.navItem}>{page.Name}</Link>
+      </li>
+    )
   })
 }
 
@@ -16,7 +20,9 @@ export const Nav = () => {
   const links = createLinks()
 
   return (
-    <nav className={styles.nav}>{links}</nav>
+    <nav className={styles.nav}>
+      <ul>{links}</ul>
+    </nav>
   )
 }
 

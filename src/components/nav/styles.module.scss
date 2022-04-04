@@ -1,9 +1,16 @@
+@use '../../styles' as *;
+
 .nav {
+  display: flex;
+  flex-direction: column;
+
   &__item {
     cursor: pointer;
     text-decoration: none;
+    color: $sys-color-default;
 
     &:hover {
+      color: $sys-color-accent;
       text-decoration: underline;
     }
   }
