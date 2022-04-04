@@ -12,7 +12,7 @@
     "build": "parcel build --no-cache --public-url ../iron-legends",
     "prestart": "npm run setup",
     "start": "parcel serve --open",
-    "predeploy": "npm run setup",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
