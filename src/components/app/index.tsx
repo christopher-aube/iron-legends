@@ -1,11 +1,11 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import styles from './styles.module.scss'
 import { Nav } from '../nav'
 import pageHome from '../../pages/home'
 import pageStory from '../../pages/story'
 
-const basename = '/iron-legends'
+const basename = '/'
 
 const ReRoute = () => {
   return (
@@ -18,7 +18,7 @@ const ReRoute = () => {
 }
 
 const AppRoutes = () => {
-  console.log('styles', styles)
+  
   return (
     <Router basename={basename}>
       <div className={styles.gridContainer}>
@@ -48,7 +48,7 @@ const AppRoutes = () => {
 
 export const getApp = () => {
   const pathname = window.location.pathname
-  const isReRouted = pathname === '/'
+  const isReRouted = pathname !== basename
   
   return {
     Routes: () => {

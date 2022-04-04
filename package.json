@@ -6,8 +6,9 @@
   "type": "module",
   "scripts": {
     "update:story": "node ./scripts/content/cmd.update-story.js",
+    "update:env": "node ./scripts/config/cmd.update-env.js",
     "clean": "rimraf dist && rimraf .parcel-cache",
-    "setup": "npm run clean && npm run update:story",
+    "setup": "npm run clean && npm run update:story && npm run update:env",
     "prebuild": "npm run setup",
     "build": "parcel build --no-cache --public-url ../iron-legends",
     "prestart": "npm run setup",
