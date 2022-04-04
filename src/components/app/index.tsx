@@ -5,20 +5,9 @@ import { Nav } from '../nav'
 import pageHome from '../../pages/home'
 import pageStory from '../../pages/story'
 
-const basename = '/iron-legends'
+const basename = '/'
 
-const ReRoute = () => {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Navigate to={basename} />}/>
-      </Routes>
-    </Router>
-  )
-}
-
-const AppRoutes = () => {
-  
+export const App = () => {
   return (
     <Router basename={basename}>
       <div className={styles.gridContainer}>
@@ -44,20 +33,8 @@ const AppRoutes = () => {
       </div>
     </Router>
   )
-}
-
-export const getApp = () => {
-  const pathname = window.location.pathname
-  const isReRouted = pathname !== basename
-  
-  return {
-    Routes: () => {
-      return isReRouted ? <ReRoute /> : <AppRoutes />
-    },
-    isReRouted,
-  }
 };
 
 export default {
-  getApp,
+  App,
 }
