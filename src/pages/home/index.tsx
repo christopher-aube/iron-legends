@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './styles.module.scss'
 
 export const Route = '/'
+export const Name = 'Home'
 
 export const Page = () => {
   return (
@@ -13,5 +14,6 @@ export const Page = () => {
 
 export default {
   Route,
+  Name,
   Page,
 }

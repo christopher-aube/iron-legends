@@ -8,7 +8,7 @@ The Kathians aimed to deliver a quick decisive blow by securing their northern b
 
 When the recruiters from the Kathian army came to your home, your master complied with their request and sold you into their service. On the long road to Kathis, you were measured and tested. Showing some fighting promise, you were chosen to serve as a vanguard in the 8th Legion.
 
-<img style="object-fit:cover; width:50px;" align="left" src="../assets/symbols/battle-standard-red-dragon-cohort.png"> While encamped outside the capitol, you were assigned to the Red Dragons cohort. After four weeks of training day and night, the drums of war sounded and the 8th Legion marched north.
+<img style="object-fit:cover; width:50px;" align="left" src="../assets/symbols/battle-standard-red-dragon-cohort.png" /> While encamped outside the capitol, you were assigned to the Red Dragons cohort. After four weeks of training day and night, the drums of war sounded and the 8th Legion marched north.
 
 ## Strange Beginnings
 
@@ -33,5 +33,3 @@ The carvings you followed lead you to a ruined stone altar surrounded by broken 
 You pressed forward towards the mountain and upon reaching its foot, you found an entrance to a cave or possibly an abandoned mine. Off to the side of the entrance laid the body of a male elf dressed in fine purple robes with a dagger shoved in his chest to the hilt.
 
 After some discussion, you and your new friends thought to venture into the mountain in hopes of finding treasure or anything that would lead to a life better than that of a conscript. Naal's fits of laughter completely overtook him, rendering him useless and a liability, so you left him behind.
-
-[The next chapter.](./chapter-02.md)

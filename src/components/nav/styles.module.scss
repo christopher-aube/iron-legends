@@ -1,0 +1,10 @@
+.nav {
+  &__item {
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

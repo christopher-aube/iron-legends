@@ -40,7 +40,7 @@ fs.getStats = pathName => {
 fs.dirList = pathName => {
   try {
     const dirPaths = fs.readdirSync(fs.normalize(pathName));
-
+    
     return dirPaths.filter(url => {
       return fs.getStats(`${pathName}/${url}`).isDirectory();
     });
@@ -49,6 +49,19 @@ fs.dirList = pathName => {
     return err;
   }
 };
+
+fs.dirFiles = pathName => {
+  try {
+    const dirPaths = fs.readdirSync(fs.normalize(pathName));
+    
+    return dirPaths.filter(url => {
+      return fs.getStats(`${pathName}/${url}`).isFile();
+    });
+  } catch (err) {
+    log(err);
+    return err;
+  }
+}
 
 fs.getFile = (pathName, media) => {
   const filename = fs.normalize(pathName);

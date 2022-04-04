@@ -1,0 +1,19 @@
+{{#with . as | data |}}
+import React from 'react'
+
+export const Content = () => {
+  {{#each data.styles as | style |}}
+  const {{style.name}} = {{{style.props}}} as React.CSSProperties
+  {{/each}}
+
+  return (
+    <>
+      {{{data.contents}}}
+    </>
+  )
+}
+
+export default {
+  Content,
+}
+{{/with}}
