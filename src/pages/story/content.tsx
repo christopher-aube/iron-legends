@@ -27,9 +27,6 @@ export const Content = () => {
 <p>The carvings you followed lead you to a ruined stone altar surrounded by broken obelisks. As you searched, looking for anything to explain it, Naal would burst into random fits of laughter lasting for just the briefest of moments. Unable to find any sort of explanation, you decided to leave, that is when you noticed it. The carvings and the altar where pointing to the mountain nearby.</p>
 <p>You pressed forward towards the mountain and upon reaching its foot, you found an entrance to a cave or possibly an abandoned mine. Off to the side of the entrance laid the body of a male elf dressed in fine purple robes with a dagger shoved in his chest to the hilt.</p>
 <p>After some discussion, you and your new friends thought to venture into the mountain in hopes of finding treasure or anything that would lead to a life better than that of a conscript. Naal's fits of laughter completely overtook him, rendering him useless and a liability, so you left him behind.</p>
-<h1>Chapter 2 - Games of Chance</h1>
-<h2>Riddler's Choice</h2>
-<h2>The Green Festival</h2>
 
     </>
   )
