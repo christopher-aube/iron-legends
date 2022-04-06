@@ -27,6 +27,69 @@ export const Content = () => {
 <p>The carvings you followed lead you to a ruined stone altar surrounded by broken obelisks. As you searched, looking for anything to explain it, Naal would burst into random fits of laughter lasting for just the briefest of moments. Unable to find any sort of explanation, you decided to leave, that is when you noticed it. The carvings and the altar where pointing to the mountain nearby.</p>
 <p>You pressed forward towards the mountain and upon reaching its foot, you found an entrance to a cave or possibly an abandoned mine. Off to the side of the entrance laid the body of a male elf dressed in fine purple robes with a dagger shoved in his chest to the hilt.</p>
 <p>After some discussion, you and your new friends thought to venture into the mountain in hopes of finding treasure or anything that would lead to a life better than that of a conscript. Naal's fits of laughter completely overtook him, rendering him useless and a liability, so you left him behind.</p>
+<h1>Chapter 2 - Riddles &amp; Gambles</h1>
+<h2>Dealer's Choice</h2>
+<ul>
+<li>Fallere's deal</li>
+</ul>
+<h2>A Fresh Hand</h2>
+<ul>
+<li>Coro Village</li>
+<li>Gambling with Atalyn</li>
+</ul>
+<h2>Settling In</h2>
+<ul>
+<li>Exploring Coro</li>
+<li>Julia the Apothecary's black market</li>
+<li>Silky's tournment sponsorship</li>
+<li>Getting Dawg</li>
+</ul>
+<h2>100% Reason to Remember the Name</h2>
+<ul>
+<li>The smuggler / weapon cache</li>
+<li>Custom Armour</li>
+<li>Day 1 of the tourney</li>
+<li>Celebration</li>
+</ul>
+<h1>Chapter 3 - A Trail of Blood</h1>
+<h2>Ruining the Competition</h2>
+<ul>
+<li>Mount sabotage</li>
+<li>Day 2 of the tourney</li>
+<li>Street brawl</li>
+</ul>
+<h2>A Thief in the Night</h2>
+<ul>
+<li>Sneaking in</li>
+<li>The cold cellar</li>
+<li>Loot</li>
+<li>Fighting Andreas</li>
+<li>Burning escape</li>
+</ul>
+<h2>Jailbreak</h2>
+<ul>
+<li>Gem inquiry</li>
+<li>Master of disguise</li>
+<li>Finding Egar</li>
+<li>Getting into the catacombs</li>
+<li>Freeing William</li>
+<li>Fighting the way out</li>
+<li>Loot</li>
+<li>Hiding in plain sight</li>
+</ul>
+<h1>Chapter 4 - A Display of Power</h1>
+<h2>House Arrest</h2>
+<ul>
+<li>Atalyn's debt</li>
+</ul>
+<h2>Relic Hunter</h2>
+<ul>
+<li>Julia's offer</li>
+<li>Sneaking out</li>
+<li>Temple of the Dawn</li>
+<li>Magic Duel</li>
+<li>Back before morning</li>
+</ul>
 
     </>
   )
