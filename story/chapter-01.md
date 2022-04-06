@@ -24,7 +24,7 @@ With night firmly set in, the howls began. Not so shortly after, your party was 
 
 The party was then split again, with half being tasked with taking the body of a fallen conscript back to camp in addition to the corpses of the wolves. You alongside the conscript officer Naal with two others decided to continue your search for the deer.
 
-The trees became so dense that it was impossible for the light of the moon to pierce through. Finding tracks in that kind of darkness just couldn't be done. Of what you could see was strange to you, carvings being etched in trees and stone. The deep you went the prevalent they became.
+The trees became so dense that it was impossible for the light of the moon to pierce through. Finding tracks in that kind of darkness just couldn't be done. Of what you could see was strange to you, carvings being etched in trees and stone. The deeper you went the more prevalent they became.
 
 Being so far into the woods, things became eerily silent and seemed almost devoid of all life. You came upon an owl, perched high, it watched you without stir or stutter. As you walked past this beast, it spoke to you in a language that you did not know.
 

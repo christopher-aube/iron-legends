@@ -5,7 +5,7 @@ import { Nav } from '../nav'
 import pageHome from '../../pages/home'
 import pageStory from '../../pages/story'
 
-const basename = '/iron-legends'
+const basename = '/'
 
 export const App = () => {
   return (
