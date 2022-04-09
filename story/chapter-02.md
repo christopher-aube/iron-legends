@@ -14,7 +14,7 @@
 - Exploring Coro
 - Julia the Apothecary's black market
 - Silky's tournment sponsorship
-- Getting Dawg
+- Getting Dawg / Mount sabotage
 
 ## 100% Reason to Remember the Name
 

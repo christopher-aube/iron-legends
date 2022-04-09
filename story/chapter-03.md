@@ -2,7 +2,6 @@
 
 ## Ruining the Competition
 
-- Mount sabotage
 - Day 2 of the tourney
 - Street brawl
 
@@ -19,8 +18,7 @@
 - Gem inquiry
 - Master of disguise
 - Finding Egar
-- Getting into the catacombs
+- Into the catacombs
 - Freeing William
-- Fighting the way out
-- Loot
+- Ascending the tower
 - Hiding in plain sight

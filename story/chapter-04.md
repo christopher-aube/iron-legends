@@ -10,4 +10,4 @@
 - Sneaking out
 - Temple of the Dawn
 - Magic duel
-- Back before morning
+- Back before sunrise
