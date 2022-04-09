@@ -14,8 +14,7 @@
     "prestart": "npm run setup",
     "start:watch": "chokidar \"story/*.md\" -c \"npm run update:story\" -t 250",
     "start": "concurrently \"parcel serve --open\" \"npm run start:watch\"",
-    "predeploy": "cross-env NODE_ENV=prod npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "cross-env NODE_ENV=prod npm run build"
   },
   "repository": {
     "type": "git",
@@ -42,7 +41,6 @@
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-react": "^7.29.4",
     "fs-extra": "^10.0.1",
-    "gh-pages": "^3.2.3",
     "handlebars": "^4.7.7",
     "parcel": "^2.4.1",
     "parcel-reporter-static-files-copy": "^1.3.4",
